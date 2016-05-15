@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Data Analytics</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="resources/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="mainDiv">
+	<div class="header">
+		<img src="resources/twitter.png" class="brandLogo">
+		<span class="headTitle">
+		Twitter Data Analytics<br/>about Travelling Using <br/>Apache Spark
+		</span>
+	</div>
+	<div class="clockLinksDiv">
+		<div class="introTitle" style="width:101.7%">QUERY VISULIZATION</div>
+		<br/>
+		<center>
+		<div style="position:relative;top:40px; margin:0 auto;">
+		<div class="queryLink" onclick="openLink('1.html')"><br/>Query1</div>
+		</div></center><br/>
+		<center>
+		<div style="position:relative;top:40px">
+		<div class="queryLink" onclick="openLink('2.html')"><br/>Query2</div>
+		<div class="queryLink" onclick="openLink('3.html')"><br/>Query3</div>
+		<div class="queryLink" onclick="openLink('4.html')"><br/>Query4</div>
+		</div></center><br/>
+		<center>
+		<div style="position:relative;top:40px">
+		<div class="queryLink" onclick="openLink('5.html')"><br/>Query5</div>
+		<div class="queryLink" onclick="openLink('6.html')"><br/>Query6</div>
+		<div class="queryLink" onclick="openLink('7.html')"><br/>Query7</div>
+		<div class="queryLink" onclick="openLink('8.html')"><br/>Query8</div>
+		</div></center><br/><br/>
+		
+	</div>
+</div>
+<div class="detailPage" id="detailPage">
+<img src="resources/close.png" style="float:right;width:100px;margin-right:-50px;margin-top:-50px;" onclick="closeDialog()" />
+<iframe src="" id="dialogBox" class="dialogBox"></iframe>
+</div>
+</body>
+</html>
